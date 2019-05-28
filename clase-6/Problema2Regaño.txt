@@ -1,0 +1,10 @@
+INICIO
+  LEER num1
+  LEER num2 
+
+  PARA contador = num2 MIENTRAS contador <= num2 AUMENTA condador contador+1
+
+    ESCRIBIR condador
+  FIN-PARA 
+FIN    
+

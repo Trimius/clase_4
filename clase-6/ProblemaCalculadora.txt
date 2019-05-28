@@ -1,0 +1,9 @@
+INICIO
+   LEER CantidadMaxMulti
+   LEER X
+
+   PARA contador = 1 MIENTRAS contador <= CantidadMaxMulti AUMENTA contador = contador+1
+    ESCRIBE X*contador
+   FIN-PARA
+    
+FIN 

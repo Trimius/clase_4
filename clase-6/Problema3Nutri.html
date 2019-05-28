@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+     <script>
+         var peso = parseFloat(prompt("¿Cuanto pesas?"))
+         var pesoIdeal = parseFloat(prompt("¿Cual es tu peso ideal?"))
+         var semana = 1
+         while (peso>pesoIdeal){
+           let pesoBajado = parseFloat(prompt("¿Cuantos kg bajaste esta semana?"))
+           peso = peso - pesoBajado
+           semana = semana + 1
+           alert("Esta semana pesas " + peso)
+           }alert("Llegaste a tu objetivo en " + semana+ " semanas, !Felicidades¡")   
+     </script>

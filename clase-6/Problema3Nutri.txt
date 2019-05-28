@@ -1,0 +1,5 @@
+INICIO 
+   LEER peso
+   LEER pesoIdeal
+   
+   
