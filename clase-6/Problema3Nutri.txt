@@ -1,5 +1,13 @@
 INICIO 
    LEER peso
    LEER pesoIdeal
-   
+   LEER semana
+
+   MIENTRAS peso>ideal 
+     LEER pesoBajado
+     peso = peso - pesoBajado 
+     semana = semana + 1
+   FIN-PARA 
+    ESCRIBIR semana 
+FIN      
    
